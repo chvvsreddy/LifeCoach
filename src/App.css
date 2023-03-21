@@ -1,0 +1,217 @@
+:root {
+  --mui-palette-primary-main: #1ede18;
+  --mui-palette-primary-light: #1ede18;
+  --mui-palette-primary-dark: #1ede18;
+  --mui-palette-primary-contrastText: #1ede18;
+  /* ...other variables */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* body{background-color: rgba(0, 0, 0, 0.03)!important;} */
+.main-container{min-height: calc(100vh - 130px);width: 100%;}
+.w-100{max-width: 100%;}
+h5{font-weight:600!important;}
+.home-banner{background-color: #0d084d;padding-top: 50px;}
+.findtalent-banner{background-color: #4b380b;padding-top: 50px;}
+.business-banner{background-color:#530405;padding-top: 50px;}
+.innerbanner{min-height: 200px;display: flex;align-items: center;justify-content: flex-start;color: #fff;
+  background-image: url("assets/images/user-info-banner-bg.png");background-position: top right;background-size: contain;
+background-repeat: no-repeat;}
+.banner-content{color: #fff;display: flex;justify-content: flex-start;align-items: center;padding: 0;}
+.banner-content h2{color: #fff; font-size: 55px;font-weight: 700;line-height: 65px;}
+.banner-content h2 span{font-weight: 400;font-style: italic;font-family: 'DM Serif Display', serif;}
+.banner-content p{color: #fff;font-size: 20px;margin:15px 0;}
+
+.skills-block, .skill-item{width: 20%;}
+.skill{position: relative;}
+.skill-content{ position: absolute;top: 0;left: 0;right:0;bottom: 0; background-color: rgba(0,0,0, 0.5); color: #fff;}
+.banner-block{border-radius:16px;overflow: hidden;}
+
+.skillset-info h2{font-size: 36px;line-height:44px;}
+.skillset-info ul{list-style: none;padding: 0 30px 0 0;}
+.skillset-info ul h5{font-size:20px;margin: 0;}
+.skillset-info ul p{font-size: 18px;margin-top: 0;}
+.skillset-info ul li{position: relative;padding-left: 30px;}
+.skillset-info ul li svg{position: absolute;top:3px;left: 0;}
+
+.skill-item{text-align: center;height: 200px;display: flex;justify-content: center;align-items: center;cursor: pointer;}
+.skill-item:hover div{padding: 20px;border-radius: 16px;}
+.skill-item:hover div{background-color: rgba(0, 0, 0, 0.05);}
+.skill-item img{max-width: 50px;}
+
+.login-block{background-color: #9fc4e2;}
+.page-title{font-size:1.6rem!important;margin: 5px 0 20px!important;}
+
+/* .MuiButtonBase-root{min-height:50px!important;} */
+.top-nav  .MuiButtonBase-root{min-height:30px!important; padding: 5px 15px 5px;color: #fff;}
+.profile-nav .MuiButtonBase-root{margin: 10px 0;}
+.MuiAccordionSummary-content{margin: 0!important;}
+.MuiAccordionDetails-root{padding:0 16px!important;}
+.MuiAccordionDetails-root nav{padding:0!important;}
+.MuiAccordionSummary-content p{font-weight: bold;}
+
+.user-info{display: flex; justify-content: flex-start;align-items: center;margin-bottom: 10px;}
+.user-info .MuiAvatar-root{margin-right: 10px;}
+.user-info p{margin: 0;font-size: 14px;}
+.skill-rating{color: #ffbe5b;display: flex;}
+.skill-rating p{margin: 0px 5px;}
+.product-block .MuiCardActions-root button{color: #ccc;}
+.product-block .MuiCardActions-root button:hover{color: #000;}
+
+.breadcrumb h5{font-size: 36px;font-weight:500!important;}
+.MuiBreadcrumbs-li, .MuiBreadcrumbs-li p{font-size: 16px !important;color: #fff;}
+.MuiMenuItem-root a{display: flex;text-decoration: none;color: #fff;}
+.logo{max-height:50px;}
+
+.user-pic{display: flex;justify-content:flex-start;align-items: center;padding: 20px;}
+
+.MuiCard-root{ box-shadow: 0 0 2px 0 rgb(145 158 171 / 20%), 0 12px 24px -4px rgb(145 158 171 / 12%)!important;}
+
+.wid{background-color: #fff;border: 20px;height:200px; box-shadow: 0 0 2px 0 rgb(145 158 171 / 20%), 0 12px 24px -4px rgb(145 158 171 / 12%);margin-bottom: 20px;}
+.wid h5{padding: 15px;border-bottom: 1px solid #ccc;}
+
+.user-pic .MuiAvatar-root{margin-right: 15px;}
+.user-pic h4{font-weight: 700;}
+.user-pic p{}
+.profile-nav .MuiListItemText-root{margin-left: 20px;}
+
+.user-details{display: flex; justify-content: flex-start;align-items: center;margin-bottom: 10px;}
+.user-details .MuiAvatar-root{margin-right: 15px;border: 4px solid #fff;margin-top: -30px;}
+.user-details h4{font-size:24px;font-weight: 700;margin-top:10px;}
+.user-details span{display: inline-block;margin-right: 20px;}
+
+.user-details h4 span{font-size:14px;margin-left: 20px;}
+.user-details p{font-size:18px;margin-top:5px;}
+.user-details svg{width:20px;float: left;}
+
+.user-desc h5{font-size:18px;margin-bottom:5px;}
+.user-desc p{line-height:28px;}
+
+.user-banner{height:200px;background:#eeeae7 url("assets/images/user-info-banner-bg.png") top right no-repeat; background-size: contain;}
+
+.my-projects{padding: 30px 0;}
+.my-projects h2{font-size:24px;margin-bottom: 20px;font-weight: 700;}
+
+.talent-block{padding: 20px;}
+.talent-block .talent-content img{max-width: 80px;max-height: 80px;margin-right: 15px;}
+.talent-block .talent-content{padding: 0;display: flex;}
+.talent-block .rating{padding: 10px 0;font-size: 14px;}
+.talent-block .rating svg{width: 16px;float: left;line-height: 24px;}
+
+.user-contact{padding: 20px;}
+.user-contact button svg{margin-right: 10px;}
+.user-contact > div{border:1px solid #e4e5e7;border-radius: 6px;text-align: center;margin: 20px 0;}
+
+.talent{display: flex;justify-content: flex-start;align-items: center;position: relative;}
+.talent .MuiCardMedia-root{margin: 20px;border-radius: 50%;width:320px;}
+.talent-details h4{font-size: 20px;font-weight: 700;}
+.talent-details h4 .rating{font-size: 14px;margin-left: 20px;}
+.talent-details h4 .rating svg{width: 16px;margin: 0 0 -5px 0;}
+.talent-details p{margin-bottom: 10px;}
+.talent svg{margin: 0 0px -5px 0;}
+.talent .location{padding:10px 0;}
+.talent .location span{margin-right: 20px;}
+.primary-color{color:blue;font-weight: 600;}
+.actions{position:absolute;bottom:-100px;left: 0;right:0;background-color: rgba(255,255,255 0.5);padding:10px;text-align: right;
+transition: all ease 0.5s;}
+.talent:hover .actions{bottom:0px;}
+
+.filter-button{margin-bottom:20px;text-align: right;}
+.filter-button .MuiToggleButtonGroup-root{    box-shadow: 0px 0px 10px #ccc;border-radius: 30px;overflow: hidden;}
+.filter-button .MuiButtonBase-root{border:0px solid red; padding: 0 20px;}
+
+.button-container{padding: 20px 0;border-top: 1px solid rgba(0, 0, 0, 0.12);text-align: right;margin-top: 20px!important;}
+
+.createskill-intro h2{font-size: 36px; color:#0d084d ;font-weight: 700;}
+.createskill-intro p{font-size: 18px;}
+.intro-step{padding:15px 0;}
+.intro-step h3{font-size: 20px;font-weight: 700;}
+
+.course-info{padding: 60px 0;}
+.course-info h4{font-size: 40px;margin-bottom: 15px;}
+.course-info h6{font-size: 30px;font-weight: 400;}
+.course-info p{opacity: 0.6;}
+.success{color:rgb(46, 125, 50)}
+.create-course h3{font-size: 20px;font-weight: 700;margin: 10px 0;}
+.css-sghohy-MuiButtonBase-root-MuiButton-root{    background-color: #0d084d!important;
+  box-shadow: 0 0 0 0 !important;
+  border-radius: 8px!important;}
+
+  .course-basic-info{border: 1px solid #ccc;padding:20px;border-radius: 6px;}
+.course-basic-info h6{font-size: 16px;}
+.include-item{display: flex;padding-bottom: 10px;}
+.include-item svg{color: #1DBF73;margin-right:5px;}
+.course-basic-info button{margin-right: 15px;}
+.course-basic-info h3{font-size: 24px;font-weight: 700;}
+.free{background-color: #1DBF73;color:#fff;padding: 3px 6px;font-size: 12px;margin-left: 5px;}
+
+.course-cost-info{padding:20px;border-top: 5px solid #1DBF73;border-radius: 6px;}
+.course-cost-info button{width: 100%;margin-bottom: 15px;}
+.course-cost-info p{font-size: 14px;padding-bottom: 10px;display: flex;}
+.course-cost-info p svg {width: 20px;margin-right: 5px;margin-top: -2px;color: #ffbe5b;}
+.course-overview {display: flex;padding: 20px 0;}
+.course-overview p{opacity: 1;display: flex;margin-right: 20px;}
+.course-overview p span{margin-right: 5px;}
+.yellow-color{color: #FFB33E;}
+.green-color{color:#1DBF73}
+.course-details h4{font-size: 20px;margin: 30px 0 10px;}
+.course-details p{margin-bottom: 15px;}
+.course-video {margin-bottom: 20px;}
+.course-video video{width:100%;}
+.text-area{border:1px solid rgba(0, 0, 0, 0.23);border-radius: 4px;padding: 10px;
+  font-family: 'Roboto';  font-size: 16px;}
+
+.skillsection{margin-bottom: 20px;}
+.skillsection h4{font-weight: 500;text-transform: uppercase;}
+.add-block{background-color: #F5F5F5;border: 1px solid #D5CECE;padding: 20px;border-radius: 6px;}
+
+.upload-control{display: flex;}
+.MuiInputBase-root{background-color: #fff;}
+.upload-control .MuiInputBase-root{border-radius:4px 0 0 4px;}
+.add-block .MuiDivider-root{width: 100%;    margin-top: 10px;}
+.upload-control .MuiButtonBase-root{background-color: #fff;white-space:nowrap;padding: 0 10px;width:160px;min-height: 30px!important;border-radius: 0 4px 4px 0;}
+
+.MuiFormControl-root.MuiFormControl-fullWidth{margin-bottom: 15px!important;}
+@media screen and (max-width:600px){
+  .skills-block, .skill-item{width:50%;}
+  .banner-content h2 {font-size: 30px;line-height: 35px;margin: 30x;}
+
+}
